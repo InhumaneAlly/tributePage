@@ -8,11 +8,16 @@ body {
   display: flex;
   justify-content: center;
   align-self: center;
-  background-color: teal;
+  background-color: black;
   margin-top: 0px;
   padding-top: 0px;
   width: 100%;
   height: 50%;
+}
+.navigation li a {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10%;
 }
 .navigation {
   color: white;
@@ -23,7 +28,7 @@ body {
   font-weight: 900;
 }
 .navigation li {
-  padding: 0px 50px 0px 50px;
+  padding: 5px 50px 0px 50px;
   font-size: 130%;
 }
 
@@ -33,27 +38,67 @@ body {
   transition: 0.5s;
 }
 .navigation li a:hover {
-  color: tomato;
+  color: #cd0a0a;
   transition: 0.5s;
 }
 
-#main {
+#mainText {
   display: flex;
   flex-direction: column;
   justify-items: center;
   margin-left: 36%;
-  margin-right: 34%;
+  margin-right: 30%;
   margin-top: 15%;
   color: white;
   font-weight: 900;
 }
-#main h3 {
-  margin-left: 15%;
+#mainText h1 {
+  font-weight: 800;
 }
-.center-text {
-  transition: 0.5s;
+#mainText h3 {
+  margin-left: 10%;
 }
-.center-text:hover {
-  border: 5px solid white;
-  transition: 0.8s;
+#mainText {
+  background-color: black;
+}
+
+.terminal-numbers {
+  color: green;
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 0%;
+  z-index: -5;
+}
+.mr-robot-text {
+  position: absolute;
+  transform: scale(0.2);
+  top: 29%;
+  left: 13%;
+}
+#img {
+  display: block;
+  opacity: 0.3;
+}
+
+#img-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+#img-caption {
+  color: white;
+  position: absolute;
+  margin-top: 60%;
+}
+
+#img-div h1 {
+  position: absolute;
+  font-size: 800%;
+  line-break: auto;
+  z-index: -10;
+  color: whitesmoke;
+  margin-left: 5%;
+  margin-top: 12%;
+  font-weight: 900;
 }
